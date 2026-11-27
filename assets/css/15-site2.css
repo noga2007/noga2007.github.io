@@ -1,0 +1,58 @@
+/* Noga Adel: editorial gallery, lightbox, gift box */
+.gal-tabs{margin-bottom:22px}
+.gal-grid{column-count:2;column-gap:12px}
+@media(min-width:760px){.gal-grid{column-count:3;column-gap:16px}}
+@media(min-width:1180px){.gal-grid{column-count:4}}
+.gal-item{display:block;width:100%;margin:0 0 12px;padding:0;border:0;border-radius:20px;overflow:hidden;position:relative;cursor:zoom-in;background:var(--beige);box-shadow:0 12px 28px -18px rgba(80,52,60,.45);break-inside:avoid;-webkit-column-break-inside:avoid}
+@media(min-width:760px){.gal-item{margin-bottom:16px;border-radius:24px}}
+.gal-item img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 28%;transition:transform .7s cubic-bezier(.2,.7,.2,1)}
+@media(hover:hover){.gal-item:hover img{transform:scale(1.06)}}
+.gal-item:focus-visible,.lb button:focus-visible{outline:3px solid #e9b8bf;outline-offset:2px}
+.gal-empty{text-align:center;padding:30px 0;column-span:all}
+.lb{position:fixed;inset:0;z-index:130;background:rgba(24,14,17,.94);display:flex;align-items:center;justify-content:center;direction:ltr;touch-action:pan-y}
+.lb img{max-width:100vw;max-height:88vh;max-height:88dvh;object-fit:contain;transition:opacity .25s;border-radius:6px;user-select:none;-webkit-user-drag:none}
+.lb-x,.lb-nav{position:absolute;border:0;background:rgba(255,255,255,.14);color:#fff;border-radius:50%;width:46px;height:46px;font-size:30px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0 0 4px;-webkit-tap-highlight-color:transparent}
+.lb-x:hover,.lb-nav:hover{background:rgba(255,255,255,.28)}
+.lb-x{top:max(14px,env(safe-area-inset-top,0px));right:14px;font-size:34px;padding-bottom:3px}
+.lb-nav{top:50%;transform:translateY(-50%)}
+.lb-prev{left:10px}.lb-next{right:10px}
+.lb-count{position:absolute;bottom:max(16px,env(safe-area-inset-bottom,0px));left:50%;transform:translateX(-50%);color:#f3dbda;font:600 13px Inter,system-ui,sans-serif;letter-spacing:.08em}
+@media(max-width:600px){.lb-nav{width:40px;height:40px;font-size:26px;background:rgba(255,255,255,.2)}}
+
+/* gift box */
+.gift-fab{position:fixed;left:0;top:0;z-index:55;display:flex;flex-direction:column;align-items:center;gap:4px;border:0;background:none;padding:0;cursor:pointer;will-change:transform;-webkit-tap-highlight-color:transparent;touch-action:manipulation;direction:ltr}
+.gift-fab[hidden],.gift-fab.is-hidden{display:none}
+.gift-fab svg{width:64px;height:64px;display:block;overflow:visible;filter:drop-shadow(0 10px 12px rgba(120,60,75,.35));animation:giftwig 4.2s ease-in-out infinite;transform-origin:50% 90%}
+.gift-fab::before{content:"";position:absolute;top:2px;left:50%;width:66px;height:66px;margin-left:-33px;border-radius:50%;background:radial-gradient(circle,rgba(233,184,191,.65),rgba(233,184,191,0) 70%);animation:giftpulse 2.4s ease-in-out infinite;z-index:-1}
+.gift-badge{background:#fffdfb;color:#7d3f4c;border:1.5px solid #d9b46a;border-radius:99px;padding:6px 12px;font:700 12.5px/1.35 Cairo,Inter,system-ui,sans-serif;white-space:nowrap;box-shadow:0 8px 18px -10px rgba(120,80,40,.55);max-width:calc(100vw - 20px)}
+@keyframes giftwig{0%,78%,100%{transform:rotate(0) scale(1)}82%{transform:rotate(-9deg) scale(1.06)}86%{transform:rotate(8deg) scale(1.06)}90%{transform:rotate(-6deg)}94%{transform:rotate(4deg)}}
+@keyframes giftpulse{0%,100%{transform:scale(.9);opacity:.7}50%{transform:scale(1.18);opacity:1}}
+.gift-overlay{z-index:110}
+.gift-modal{max-width:460px;max-height:90vh;max-height:90dvh;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;padding:26px 20px 22px}
+.gift-stage{position:relative;height:118px;display:flex;align-items:flex-end;justify-content:center;margin-bottom:6px}
+.gift-stage svg{width:112px;height:112px;overflow:visible}
+.gift-stage .g-lid{transform-origin:20% 60%;transition:transform .7s cubic-bezier(.3,1.4,.5,1),opacity .6s .15s}
+.gift-stage.open .g-lid{transform:translate(8px,-46px) rotate(-24deg);opacity:.0}
+.gift-stage .g-glow{opacity:0;transition:opacity .6s}
+.gift-stage.open .g-glow{opacity:1}
+.gift-stage .g-box{animation:giftshake .5s ease-in-out 1}
+@keyframes giftshake{0%,100%{transform:translateX(0)}25%{transform:translateX(-4px) rotate(-2deg)}75%{transform:translateX(4px) rotate(2deg)}}
+.gift-confetti{position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:3}
+.gift-confetti i{position:absolute;left:50%;top:110px;width:9px;height:14px;border-radius:2px;opacity:0;animation:confetti 1.9s cubic-bezier(.15,.7,.3,1) forwards}
+.gift-confetti i.s{width:8px;height:8px;border-radius:50%}
+@keyframes confetti{0%{opacity:1;transform:translate(0,0) rotate(0)}100%{opacity:0;transform:translate(var(--x),var(--y)) rotate(var(--r))}}
+.gift-offer{position:relative;margin:4px 0 16px;padding:18px 16px;border-radius:20px;text-align:center;background:linear-gradient(160deg,#fffaf0,#fbf0d9);border:1.5px solid #d9b46a;box-shadow:inset 0 0 0 4px rgba(255,255,255,.7),0 14px 28px -20px rgba(150,110,40,.6);font:700 clamp(16px,4.6vw,19px)/1.75 Cairo,Inter,system-ui,sans-serif;color:#5b3a2a;opacity:0;transform:translateY(10px);transition:opacity .6s,transform .6s}
+.gift-offer.show,.gift-form.show{opacity:1;transform:none}
+.gift-offer small{display:block;font-weight:600;color:#9a7a3b;font-size:12px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px}
+[dir=rtl] .gift-offer small,html[lang=ar] .gift-offer small{letter-spacing:.02em}
+.gift-form{display:flex;flex-direction:column;gap:12px;text-align:start;opacity:0;transform:translateY(10px);transition:opacity .6s .15s,transform .6s .15s}
+.gift-form label{font-weight:600;font-size:14px;display:block;margin-bottom:4px}
+.gift-form input,.gift-form textarea{width:100%;border:1.5px solid #ecd9cf;background:#fffaf6;border-radius:14px;padding:12px 14px;font-family:inherit;font-size:16px!important;line-height:1.4;color:var(--ink)}
+.gift-form textarea{min-height:92px;resize:vertical}
+.gift-form input:focus,.gift-form textarea:focus{outline:none;border-color:var(--rose)}
+.gift-note{min-height:20px;margin:0;font-size:14px;color:#93343f}
+.gift-note a{color:inherit;text-decoration:underline}
+.gift-done{text-align:center;padding:10px 4px 6px;font:700 clamp(17px,4.8vw,20px)/1.9 Cairo,Inter,system-ui,sans-serif;color:#5b3a2a;animation:joypop .6s ease both}
+.gift-done .big{font-size:44px;display:block;margin-bottom:6px}
+@media (prefers-reduced-motion:reduce){.gift-fab svg,.gift-fab::before,.gift-stage .g-box,.gift-confetti i{animation:none}.gift-offer,.gift-form{opacity:1;transform:none;transition:none}}
+body.joy-lock .fan-dock{display:none}
