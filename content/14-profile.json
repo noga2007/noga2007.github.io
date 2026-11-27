@@ -1,0 +1,140 @@
+{
+  "name": "Noga Adel",
+  "roles": {
+    "en": "Influencer · Content Creator · UGC Creator · Fashion Model",
+    "ar": "مؤثرة · صانعة محتوى · UGC · موديل أزياء"
+  },
+  "location": {
+    "en": "Cairo, Egypt",
+    "ar": "القاهرة، مصر"
+  },
+  "lead": {
+    "en": "I'm Noga Adel, an Egypt-based Influencer and Content Creator passionate about beauty, fashion, lifestyle and storytelling. Through authentic content, daily experiences and creative videos, I connect brands with audiences in a natural and engaging way.",
+    "ar": "أنا نوجا عادل، مؤثرة وصانعة محتوى من مصر، شغوفة بالبيوتي والفاشون واللايف ستايل وحكي القصص. من خلال محتوى حقيقي ويوميات وفيديوهات إبداعية، بوصّل البراندات لجمهورها بشكل طبيعي وقريب."
+  },
+  "stats": [
+    {
+      "value": "77.6K",
+      "label": {
+        "en": "TikTok followers",
+        "ar": "متابع على تيك توك"
+      }
+    },
+    {
+      "value": "5.6M",
+      "label": {
+        "en": "Likes on TikTok",
+        "ar": "إعجاب على تيك توك"
+      }
+    },
+    {
+      "value": "1M",
+      "label": {
+        "en": "Views, top brand video",
+        "ar": "مشاهدة لأفضل فيديو براند"
+      }
+    },
+    {
+      "value": "4",
+      "label": {
+        "en": "Brands worked with",
+        "ar": "براندات تعاملت معاها"
+      }
+    }
+  ],
+  "statsNote": {
+    "en": "Checked on TikTok, 27 Nov 2026",
+    "ar": "متراجع على تيك توك في 27 نوفمبر 2026"
+  },
+  "about": {
+    "en": [
+      "I'm Noga Adel, an Egypt-based Influencer and Content Creator creating content around beauty, fashion, lifestyle and everyday experiences.",
+      "Through authentic content, daily experiences, creative videos and brand collaborations, I connect brands with audiences in a natural and engaging way.",
+      "I also offer professional UGC production, helping brands create authentic video content for their marketing campaigns.",
+      "I'm a second-year Radio & Television student at MTI, based in Cairo. I work with brands and agencies in Egypt, the Gulf and worldwide."
+    ],
+    "ar": [
+      "أنا نوجا عادل، مؤثرة وصانعة محتوى من مصر، بعمل محتوى عن البيوتي والفاشون واللايف ستايل وتفاصيل الحياة اليومية.",
+      "من خلال محتوى حقيقي ويوميات وفيديوهات إبداعية وتعاونات مع براندات، بوصّل البراندات لجمهورها بشكل طبيعي.",
+      "وكمان بقدم خدمة إنتاج UGC احترافية، بساعد البراندات تعمل فيديوهات حقيقية لحملاتها التسويقية.",
+      "أنا طالبة في السنة التانية قسم إذاعة وتلفزيون في جامعة MTI، وساكنة في القاهرة. بشتغل مع براندات ووكالات في مصر والخليج وحول العالم."
+    ]
+  },
+  "education": {
+    "title": {
+      "en": "BA Mass Communication",
+      "ar": "بكالوريوس إعلام"
+    },
+    "detail": {
+      "en": "Radio & Television, Modern University for Technology and Information (MTI). Expected 2028.",
+      "ar": "قسم إذاعة وتلفزيون، الجامعة الحديثة للتكنولوجيا والمعلومات. التخرج المتوقع 2028."
+    }
+  },
+  "languages": [
+    {
+      "en": "Arabic (native)",
+      "ar": "العربية (لغة أم)"
+    },
+    {
+      "en": "English (learning)",
+      "ar": "الإنجليزية (بتعلمها)"
+    }
+  ],
+  "socials": {
+    "tiktok": "https://www.tiktok.com/@noga.adel97",
+    "linkedin": "https://www.linkedin.com/in/noga-adel-ugc/",
+    "instagram": "https://www.instagram.com/noga.adel.9699/",
+    "email": "noga@nogaadel.co"
+  },
+  "mediaKit": {
+    "status": "on-request",
+    "note": {
+      "en": "Media kit and rates on request by email.",
+      "ar": "الميديا كيت والأسعار عند الطلب على الإيميل."
+    }
+  },
+  "themes": {
+    "label": {
+      "en": "What I post about",
+      "ar": "بتكلم عن إيه"
+    },
+    "items": [
+      {
+        "en": "Lifestyle",
+        "ar": "لايف ستايل"
+      },
+      {
+        "en": "Daily vlogs",
+        "ar": "فلوجات يومية"
+      },
+      {
+        "en": "Fashion",
+        "ar": "فاشون"
+      },
+      {
+        "en": "Beauty",
+        "ar": "بيوتي"
+      },
+      {
+        "en": "Skincare",
+        "ar": "عناية بالبشرة"
+      },
+      {
+        "en": "Personal experiences",
+        "ar": "تجارب شخصية"
+      },
+      {
+        "en": "Product discoveries",
+        "ar": "اكتشاف منتجات"
+      },
+      {
+        "en": "Entertainment",
+        "ar": "ترفيه"
+      },
+      {
+        "en": "Brand collaborations",
+        "ar": "تعاونات براندات"
+      }
+    ]
+  }
+}

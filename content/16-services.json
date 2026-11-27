@@ -1,0 +1,206 @@
+{
+  "intro": {
+    "en": "Three ways to work together. Deliverables and terms are agreed per project.",
+    "ar": "٣ طرق نشتغل بيها سوا. التفاصيل والشروط بتتحدد لكل مشروع."
+  },
+  "difference": {
+    "en": "Influencer Marketing is content published on Noga's own accounts, reaching her audience. UGC Production is content made for your brand to use on your own channels and ads, without being posted on Noga's accounts.",
+    "ar": "التسويق بالمؤثرين: محتوى بيتنشر على حسابات نوجا ويوصل لجمهورها. إنتاج UGC: محتوى بتعمله لبراندك تستخدمه على قنواتك وإعلاناتك، من غير ما يتنشر على حسابات نوجا."
+  },
+  "services": [
+    {
+      "id": "influencer",
+      "primary": true,
+      "title": {
+        "en": "Influencer Marketing",
+        "ar": "التسويق بالمؤثرين"
+      },
+      "desc": {
+        "en": "Work with Noga through her own social platforms to introduce your products to her audience with authentic, creative content.",
+        "ar": "اشتغل مع نوجا عبر حساباتها لتعريف جمهورها بمنتجاتك بمحتوى حقيقي وإبداعي."
+      },
+      "items": [
+        {
+          "en": "Sponsored TikTok videos",
+          "ar": "فيديوهات تيك توك برعاية"
+        },
+        {
+          "en": "Instagram Reels",
+          "ar": "ريلز إنستجرام"
+        },
+        {
+          "en": "Instagram Stories",
+          "ar": "ستوريز إنستجرام"
+        },
+        {
+          "en": "Sponsored lifestyle content",
+          "ar": "محتوى لايف ستايل برعاية"
+        },
+        {
+          "en": "Product placement",
+          "ar": "بروداكت بليسمنت"
+        },
+        {
+          "en": "Product reviews",
+          "ar": "مراجعات منتجات"
+        },
+        {
+          "en": "Brand features",
+          "ar": "تقديم البراند"
+        },
+        {
+          "en": "Unboxing videos",
+          "ar": "فيديوهات أنبوكسينج"
+        },
+        {
+          "en": "Event coverage",
+          "ar": "تغطية فعاليات"
+        },
+        {
+          "en": "Brand ambassador partnerships",
+          "ar": "شراكات سفيرة براند"
+        },
+        {
+          "en": "Monthly influencer campaigns",
+          "ar": "حملات شهرية"
+        }
+      ]
+    },
+    {
+      "id": "ugc",
+      "title": {
+        "en": "UGC Content Production",
+        "ar": "إنتاج محتوى UGC"
+      },
+      "desc": {
+        "en": "Content created for your brand, without necessarily being published on Noga's personal accounts.",
+        "ar": "محتوى بيتعمل لبراندك، من غير ما يتنشر بالضرورة على حسابات نوجا."
+      },
+      "items": [
+        {
+          "en": "UGC videos",
+          "ar": "فيديوهات UGC"
+        },
+        {
+          "en": "Product demonstrations",
+          "ar": "عرض المنتج"
+        },
+        {
+          "en": "Product reviews",
+          "ar": "مراجعات منتجات"
+        },
+        {
+          "en": "Unboxing",
+          "ar": "أنبوكسينج"
+        },
+        {
+          "en": "Beauty and skincare videos",
+          "ar": "فيديوهات بيوتي وسكين كير"
+        },
+        {
+          "en": "Lifestyle videos",
+          "ar": "فيديوهات لايف ستايل"
+        },
+        {
+          "en": "Advertising creatives",
+          "ar": "كرييتيف إعلانات"
+        },
+        {
+          "en": "Raw footage",
+          "ar": "فوتيج خام"
+        },
+        {
+          "en": "Paid advertising usage licensing",
+          "ar": "ترخيص استخدام في الإعلانات المدفوعة"
+        }
+      ]
+    },
+    {
+      "id": "modeling",
+      "title": {
+        "en": "Fashion Modeling & Brand Campaigns",
+        "ar": "موديل أزياء وحملات براندات"
+      },
+      "desc": {
+        "en": "On-camera and photo work for fashion, beauty and product brands.",
+        "ar": "شغل قدام الكاميرا وتصوير لبراندات الأزياء والبيوتي والمنتجات."
+      },
+      "items": [
+        {
+          "en": "Fashion modeling",
+          "ar": "موديل أزياء"
+        },
+        {
+          "en": "Beauty campaigns",
+          "ar": "حملات بيوتي"
+        },
+        {
+          "en": "Commercial photography",
+          "ar": "تصوير تجاري"
+        },
+        {
+          "en": "Product campaigns",
+          "ar": "حملات منتجات"
+        },
+        {
+          "en": "Brand photoshoots",
+          "ar": "فوتوشوت للبراندات"
+        }
+      ]
+    }
+  ],
+  "inquiryTypes": [
+    {
+      "id": "influencer",
+      "title": {
+        "en": "Hire Noga as an Influencer",
+        "ar": "تعاقد مع نوجا كمؤثرة"
+      }
+    },
+    {
+      "id": "ugc",
+      "title": {
+        "en": "Hire Noga for UGC Production",
+        "ar": "تعاقد مع نوجا لإنتاج UGC"
+      }
+    },
+    {
+      "id": "modeling",
+      "title": {
+        "en": "Fashion Modeling & Campaigns",
+        "ar": "موديل أزياء وحملات"
+      }
+    },
+    {
+      "id": "other",
+      "title": {
+        "en": "Something else",
+        "ar": "حاجة تانية"
+      }
+    }
+  ],
+  "collab": [
+    {
+      "id": "influencer",
+      "title": {
+        "en": "Hire Noga as an Influencer",
+        "ar": "تعاقد مع نوجا كمؤثرة"
+      },
+      "desc": {
+        "en": "Sponsored posts, Reels, TikTok videos, Stories, product placement or monthly partnerships on Noga's own accounts.",
+        "ar": "بوستات برعاية وريلز وتيك توك وستوريز وبروداكت بليسمنت أو شراكات شهرية على حسابات نوجا."
+      }
+    },
+    {
+      "id": "ugc",
+      "title": {
+        "en": "Hire Noga for UGC Production",
+        "ar": "تعاقد مع نوجا لإنتاج UGC"
+      },
+      "desc": {
+        "en": "Content production for your brand, without publishing on Noga's personal social accounts.",
+        "ar": "إنتاج محتوى لبراندك من غير النشر على حسابات نوجا الشخصية."
+      }
+    }
+  ]
+}

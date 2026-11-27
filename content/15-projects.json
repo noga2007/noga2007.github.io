@@ -1,0 +1,81 @@
+{
+  "categories": [
+    {
+      "id": "food",
+      "label": {
+        "en": "Food & Reviews",
+        "ar": "أكل ومراجعات"
+      }
+    },
+    {
+      "id": "fashion",
+      "label": {
+        "en": "Fashion",
+        "ar": "أزياء"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "brand": "B.Laban",
+      "category": "food",
+      "title": {
+        "en": "Dessert review",
+        "ar": "مراجعة حلويات"
+      },
+      "metric": {
+        "value": "1M",
+        "label": {
+          "en": "views",
+          "ar": "مشاهدة"
+        }
+      },
+      "video": "https://www.tiktok.com/@noga.adel97/video/7700225600484691221",
+      "featured": true
+    },
+    {
+      "brand": "Asili",
+      "category": "food",
+      "title": {
+        "en": "Food collaboration",
+        "ar": "تعاون أكل"
+      },
+      "metric": {
+        "value": "369.4K",
+        "label": {
+          "en": "views",
+          "ar": "مشاهدة"
+        }
+      },
+      "video": "https://www.tiktok.com/@noga.adel97/video/7680207385733909781"
+    },
+    {
+      "brand": "Chickin Belalam",
+      "category": "food",
+      "title": {
+        "en": "Food collaboration",
+        "ar": "تعاون أكل"
+      },
+      "metric": {
+        "value": "204.5K",
+        "label": {
+          "en": "views",
+          "ar": "مشاهدة"
+        }
+      },
+      "video": "https://www.tiktok.com/@noga.adel97/video/7685430872283221268"
+    },
+    {
+      "brand": "Possipol",
+      "category": "fashion",
+      "title": {
+        "en": "Clothing collaboration",
+        "ar": "تعاون ملابس"
+      }
+    }
+  ],
+  "note": {
+    "en": "View counts as shown on TikTok, checked 27 Nov 2026.",
+    "ar": "أرقام المشاهدات زي ما ظاهرة على تيك توك، متراجعة في 27 نوفمبر 2026."
+  }
+}
