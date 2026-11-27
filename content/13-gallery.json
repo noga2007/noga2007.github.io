@@ -1,0 +1,166 @@
+{
+ "photos": [
+  {
+   "src": "2-noga-1.jpg",
+   "alt": {
+    "en": "Noga Adel in a cream gown at a carved wooden door",
+    "ar": "نوجا عادل بفستان كريمي عند باب خشبي منقوش"
+   },
+   "ratio": "4/5",
+   "cat": "fashion"
+  },
+  {
+   "src": "3-noga-2.jpg",
+   "alt": {
+    "en": "Noga Adel in a satin gown on a balustrade terrace",
+    "ar": "نوجا عادل بفستان ساتان على تراس"
+   },
+   "ratio": "3/4",
+   "cat": "fashion"
+  },
+  {
+   "src": "4-noga-3.jpg",
+   "alt": {
+    "en": "Noga Adel in a black oversized tee with lace trim and jeans",
+    "ar": "نوجا عادل بتيشيرت أسود أوفرسايز وجينز"
+   },
+   "ratio": "2/3",
+   "cat": "fashion"
+  },
+  {
+   "src": "5-noga-4.jpg",
+   "alt": {
+    "en": "Noga Adel in a white top and pink wide-leg trousers",
+    "ar": "نوجا عادل بتوب أبيض وبنطلون وردي واسع"
+   },
+   "ratio": "4/5",
+   "cat": "fashion"
+  },
+  {
+   "src": "assets/gallery/1-g01.jpg",
+   "cat": "lifestyle",
+   "ratio": "9/14",
+   "alt": {
+    "en": "Noga with gold and pink birthday balloons on a rooftop at night",
+    "ar": "نوجا مع بالونات عيد ميلاد ذهبية ووردي على روف بالليل"
+   }
+  },
+  {
+   "src": "assets/gallery/2-g02.jpg",
+   "cat": "fashion",
+   "ratio": "2/3",
+   "alt": {
+    "en": "Noga in a white tee and wide grey trousers in a garden with palm trees",
+    "ar": "نوجا بتيشيرت أبيض وبنطلون رمادي واسع في جنينة فيها نخل"
+   }
+  },
+  {
+   "src": "assets/gallery/3-g03.jpg",
+   "cat": "fashion",
+   "ratio": "3/4",
+   "alt": {
+    "en": "Noga in a white tee and wide grey trousers holding a yellow clutch",
+    "ar": "نوجا بتيشيرت أبيض وبنطلون رمادي واسع وشنطة صفراء"
+   }
+  },
+  {
+   "src": "assets/gallery/4-g04.jpg",
+   "cat": "fashion",
+   "ratio": "4/5",
+   "alt": {
+    "en": "Noga in a white tee and wide grey trousers by the flower beds",
+    "ar": "نوجا بتيشيرت أبيض وبنطلون رمادي واسع جنب الزرع"
+   }
+  },
+  {
+   "src": "assets/gallery/5-g05.jpg",
+   "cat": "lifestyle",
+   "ratio": "2/3",
+   "alt": {
+    "en": "Noga in a yellow striped shirt by a pool",
+    "ar": "نوجا بقميص أصفر مخطط جنب حمام سباحة"
+   }
+  },
+  {
+   "src": "assets/gallery/6-g06.jpg",
+   "cat": "beauty",
+   "ratio": "4/5",
+   "alt": {
+    "en": "Noga with eyes closed in the sun, yellow shirt, pool behind",
+    "ar": "نوجا مغمضة عينيها في الشمس بقميص أصفر وحمام السباحة وراها"
+   }
+  },
+  {
+   "src": "assets/gallery/7-g07.jpg",
+   "cat": "lifestyle",
+   "ratio": "3/4",
+   "alt": {
+    "en": "Noga sitting on a white bean bag by the pool in sunglasses",
+    "ar": "نوجا قاعدة على بين باج أبيض جنب الحمام بنضارة شمس"
+   }
+  },
+  {
+   "src": "assets/gallery/8-g08.jpg",
+   "cat": "fashion",
+   "ratio": "3/4",
+   "alt": {
+    "en": "Noga in a grey hoodie and wide light-wash jeans",
+    "ar": "نوجا بهودي رمادي وجينز واسع فاتح"
+   }
+  },
+  {
+   "src": "assets/gallery/9-g09.jpg",
+   "cat": "lifestyle",
+   "ratio": "9/14",
+   "alt": {
+    "en": "Noga at a cafe with an iced coffee",
+    "ar": "نوجا في كافيه مع آيس كوفي"
+   }
+  },
+  {
+   "src": "assets/gallery/10-g10.jpg",
+   "cat": "fashion",
+   "ratio": "4/5",
+   "alt": {
+    "en": "Noga in profile with the grey hoodie up and wide jeans",
+    "ar": "نوجا من الجنب بالهودي على راسها وجينز واسع"
+   }
+  },
+  {
+   "src": "assets/gallery/11-g11.jpg",
+   "cat": "beauty",
+   "ratio": "3/4",
+   "alt": {
+    "en": "Portrait of Noga in a grey and white tracksuit jacket",
+    "ar": "بورتريه لنوجا بجاكيت ترينج رمادي وأبيض"
+   }
+  }
+ ],
+ "categories": [
+  {
+   "id": "fashion",
+   "label": {
+    "en": "Fashion",
+    "ar": "Fashion"
+   }
+  },
+  {
+   "id": "beauty",
+   "label": {
+    "en": "Beauty",
+    "ar": "Beauty"
+   }
+  },
+  {
+   "id": "lifestyle",
+   "label": {
+    "en": "Lifestyle",
+    "ar": "Lifestyle"
+   }
+  }
+ ],
+ "title": {
+  "en": "Gallery",
+  "ar": "معرض الصور الاحترافي"
+ }
+}
